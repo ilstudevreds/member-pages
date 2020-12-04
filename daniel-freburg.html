@@ -11,7 +11,58 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+
 <body>
+    <!-- Navbar -->
+    <!-- If you are looking to copy this, ensure that you also have the scripts tags at the 
+      end of this file as well! They ensure that the dropdown menus will function properly, along with other things. -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand brand-image" href="/">
+                <!-- Brand Image -->
+                <img src="/img/ae29f8d8-8f97-47ee-ae05-975f7fe63e0a24b6a8dc-ae1d-4a71-8ec2-fbc1873de582.jpg" width="30"
+                    height="30" class="d-inline-block align-top" alt=" " />
+                Web Dev Reds
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Members
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/member-pages/john-runyard.html">John Runyard</a>
+                            <a class="dropdown-item" href="/member-pages/conley-price.html">Conley Price</a>
+                            <a class="dropdown-item" href="/member-pages/daniel-freburg.html">Daniel Freburg</a>
+                            <a class="dropdown-item" href="/member-pages/jeremy-howard.html">Jeremy Howard</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navMemberDropdownLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navMemberDropdownLink">
+                            <a class="dropdown-item" href="/messenger.html">Messenger App</a>
+                            <a class="dropdown-item" href="#">Coming Soon..</a>
+                            <a class="dropdown-item" href="#">Coming Soon..</a>
+                            <a class="dropdown-item" href="#">Coming Soon..</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
     <div class="container">
         <header id="header">
             <h1> Daniel J. Freburg </h1>
@@ -42,10 +93,10 @@
         <p>ABOUT</p>
         <p>
             I returned to ISU during the FALL2018 semester to obtain a Web Develpoment degree and will be graduating
-            December 2020 !!!  I've been working at the ISU Mennonite College of Nursing IT help desk 1 year!
+            December 2020 !!! I've been working at the ISU Mennonite College of Nursing IT help desk 1 year!
             I've been busy with committee work within the Bloomington-Normal area during the past few
-            years.  The committee work has inlcuded: ACLU Central Illinois Steering Committee member 7+ years, City of
-            Bloomington IL Citizens' Beautification Committee Member 1+ years, and  Mclean County Jail Review
+            years. The committee work has inlcuded: ACLU Central Illinois Steering Committee member 7+ years, City of
+            Bloomington IL Citizens' Beautification Committee Member 1+ years, and Mclean County Jail Review
             Committee 4 years.
         </p>
         <p>CODING EXPERIENCE</p>
@@ -68,5 +119,20 @@
     <footer>
         <p>CONTACT: <a href="Mailto:djfrebu@ilstu.edu">Email</a></p>
     </footer>
+
+
+
+    <!-- REQUIRED FOR BOOTSTRAP COMPONENTS THAT ARE REACTIVE!!!  -->
+    <!-- ALSO MUST BE IN THIS ORDER TO GUARANTEE REACTIVITY -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
