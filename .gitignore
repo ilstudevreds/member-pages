@@ -1,6 +1,6 @@
 *
-!.html
-!.js
+!*.html
+!*.js
 !/css/*.css
-!.json
-!.gitignore
+!*.json
+!*.gitignore
